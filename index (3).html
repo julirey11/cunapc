@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Salud Digital Colombia S.A.S.</title>
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#f4f7fb;color:#333}
+header{background:#0b5ed7;color:#fff;padding:60px 20px;text-align:center}
+nav{background:#083b8a;padding:10px;text-align:center;position:sticky;top:0}
+nav a{color:#fff;text-decoration:none;margin:0 15px;font-weight:bold}
+section{padding:50px 10%;max-width:1100px;margin:auto}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#fff;border-radius:10px;padding:20px;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+footer{background:#083b8a;color:#fff;text-align:center;padding:20px}
+button{background:#0b5ed7;color:#fff;border:none;padding:12px 20px;border-radius:5px;cursor:pointer}
+button:hover{background:#084298}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Salud Digital Colombia S.A.S.</h1>
+<p>Proyecto Integrador - Cloud Computing</p>
+<button onclick="alert('Función simulada para la demostración académica.')">Agendar cita</button>
+</header>
+
+<nav>
+<a href="#empresa">Empresa</a>
+<a href="#aws">Arquitectura AWS</a>
+<a href="#servicios">Servicios</a>
+<a href="#beneficios">Beneficios</a>
+<a href="#contacto">Contacto</a>
+</nav>
+
+<section id="empresa">
+<h2>Quiénes Somos</h2>
+<p>Salud Digital Colombia S.A.S. es una empresa ficticia creada para el proyecto académico. La solución propone migrar una plataforma del sector salud a una arquitectura Cloud Native sobre AWS.</p>
+</section>
+
+<section id="aws">
+<h2>Arquitectura Propuesta</h2>
+<div class="cards">
+<div class="card"><h3>Amazon VPC</h3><p>Red privada segura.</p></div>
+<div class="card"><h3>EC2 + Docker</h3><p>Ejecución de microservicios.</p></div>
+<div class="card"><h3>Amazon RDS</h3><p>Base de datos Multi-AZ.</p></div>
+<div class="card"><h3>Amazon S3</h3><p>Almacenamiento de archivos clínicos.</p></div>
+<div class="card"><h3>AWS IAM</h3><p>Control de acceso.</p></div>
+<div class="card"><h3>CloudWatch</h3><p>Monitoreo y alertas.</p></div>
+<div class="card"><h3>AWS WAF</h3><p>Protección perimetral.</p></div>
+<div class="card"><h3>AWS Backup</h3><p>Respaldos automáticos.</p></div>
+</div>
+</section>
+
+<section id="servicios">
+<h2>Servicios</h2>
+<ul>
+<li>Gestión de pacientes</li>
+<li>Agendamiento de citas</li>
+<li>Historia clínica digital</li>
+<li>Notificaciones</li>
+<li>Reportes médicos</li>
+</ul>
+</section>
+
+<section id="beneficios">
+<h2>Beneficios</h2>
+<div class="cards">
+<div class="card">Alta disponibilidad (SLA 99.95%).</div>
+<div class="card">Escalabilidad automática.</div>
+<div class="card">Mayor seguridad.</div>
+<div class="card">Reducción de costos.</div>
+</div>
+</section>
+
+<section id="contacto">
+<h2>Contacto</h2>
+<p>Email: contacto@saluddigitalcolombia.com</p>
+<p>Bogotá D.C., Colombia</p>
+</section>
+
+<footer>
+Proyecto académico de Cloud Computing · Salud Digital Colombia S.A.S.
+</footer>
+
+</body>
+</html>
